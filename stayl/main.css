@@ -1,0 +1,391 @@
+*{
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+font-family: "roboto","arail",sans-serif;
+font-size: 14px;
+font-weight: normal;
+line-height: 1.5;
+color: black;
+
+}
+
+.continer{
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0  20px;
+}
+header{
+  background-color: #F2CEDA;
+}
+.header-1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-series{
+  display: flex;
+  align-items: center;
+  color: red;
+}
+.header-li1{
+  list-style-type: none;
+  color: red;
+}
+.header-li{
+  padding-left: 30px; 
+}
+.header-button{
+  width: 165px;
+  height: 49px;
+  border: none;
+  border-radius: 5px;
+  background-color:  #D23166;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.header-button:hover{
+  background-color: white;
+  border: solid 2px #D23166 ;
+  color: black;
+
+}
+.header-a{
+  color: black;
+}
+section{
+  background-color: #F2CEDA;
+}
+
+.section-head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-body-1{
+  width: 600px;
+  
+}
+.section-paragr{
+  width: 172px;
+  height: 16px;
+  padding-top: 0px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 0px;
+color: #0F0101;
+}
+h2{
+  margin: 0; 
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 350;
+  font-size: 57px;
+  line-height: 30px;
+  color: #0F0101;
+}
+.section-body-2{
+  padding-top: 50px;
+margin-right: -180px;  
+width: 760px;
+height: 610px;
+}
+.main-series{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+.series-li1{
+  width: 250px;
+  margin-left: 0px;
+  padding-left: 10px;
+  text-align: center;
+  box-shadow: 12px 12px 28px 1px rgb(190, 188, 188);
+}
+.series-li{
+  width: 250px;
+  margin-left: 30px;
+  padding-left: 10px;
+  text-align: center;
+}
+.main-long{
+  background-color: #F2CEDA; 
+  margin: 0;
+  padding: 0;
+ 
+}
+.main-logo-felex{ 
+  display: flex;
+  align-items: center;
+}
+.main-logo-title{
+  margin: 0 ;
+  font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: 600;
+font-size: 44.2px;
+line-height: 49px;
+color: #150101;
+}
+.main-logo-matn{
+  width: 442px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #150101;
+}
+.main-long-picure{
+  margin-left: 100px;
+}
+.main-menyu{
+  text-align: center;
+}
+.main-meny-series{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.meny-sectr{
+  margin-right: 70px;
+}
+.meny-sectr1{
+  margin-right: 30px;
+  border-bottom: 3px solid rgb(122, 47, 78);
+  font-weight: 800 ;
+}
+a{
+  color: rgb(109, 97, 97);
+  font-weight: 400;
+}
+h3{
+  font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: 600;
+font-size: 44px;
+line-height: 60px;
+color: #150101;
+}
+.main-logo-menyu1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.main-logo1{
+  width: 350px;
+  /* margin-left: 30px; */
+
+}
+del{
+  text-decoration-line: line-through;
+  margin-left: 5px;
+}
+h4{
+  margin: 0;
+  font-family: 'Hind Madurai';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 36px;
+color: #000000;
+
+}
+p{
+  margin: 10px;
+}
+
+.main-logo-menyu2{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  text-align: right;
+  margin-right: 100px;
+}
+.main-logo2{
+  width: 440px;
+  margin-right: 30px;
+}
+.main-adeli{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 80px;
+}
+.adeli-A{
+width: 252px;
+height: 53px;
+display: flex;
+align-items: center;
+
+
+}
+.adell-p{
+  width: 352px;
+height: 53px;
+
+}
+.adell-section{
+  display: flex;
+  align-items: center;
+}
+.woo{
+  margin: 0 10px;
+}
+.yoo{
+  background-color: #F2CEDA;
+}
+.main-head-3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  padding-top: 30px;
+}
+.main-body-3{
+  width: 701px;
+  margin-left: 50px;
+}
+.simpe{
+  margin-left: 40px;
+}
+.p-some{
+  margin-left: 40px;
+  width: 600px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+.food{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 10px;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+}
+.pohotos{
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+.forom-titel{
+  text-align: center;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 44px;
+line-height: 52px;
+color: #000000;
+
+}
+form{
+  margin-top: 50px;
+  text-align: center;
+}
+.frst_name{
+  width: 303px;
+  height: 74px;
+  text-align: start;
+  padding: 10px;
+  margin: 30px;
+  border: solid 1px #D23166;
+
+}
+.frst_name1{
+  width: 537px;
+  height: 74px;
+  border: solid 1px #D23166;
+  padding: 10px;
+
+}
+button{
+  width: 134px;
+  height: 74px;
+  margin-left: 0;
+  padding: 0;
+  background-color: #D23166;
+  border: solid 1px #D23166;
+  color: white;
+}
+footer{
+  background-color: black;
+  margin-top: 100px;
+  color: rgb(219, 212, 212);
+  padding: 30px 0;
+}
+.footer-p{
+  margin: 0;
+  width: 227px;
+}
+.footer-section-1{
+  display: flex;
+  align-items: center;
+  margin-left: -50px;
+}
+.section1{
+  margin-left: 10px;
+}
+.footer-1{
+  display: flex;
+  align-items: center;
+}
+.box-2{
+  margin-top: 50px;
+  margin-left: 70px;
+  line-height: 25px;
+  color:rgb(219, 212, 212) ;
+}
+.box-3{
+  margin-top: 50px;
+  margin-left: 70px;
+  line-height: 25px;
+  color:rgb(219, 212, 212) ;
+}
+.footer-from{
+  margin-top: -0px;
+  display: flex;
+  align-items: center;
+}
+.footer-button{
+  margin-left: 150px;
+    }
+.footer-in{
+  width: 208px;
+  height: 55px;
+  background-color: black;
+  color: white;
+  padding-left:20px ;
+  border: solid 0.5px;
+  border-right:none;
+}
+.footer-but{
+  height: 56px;
+  border: solid 0.5px;
+  border-left: none;
+}
+.footer-end{
+  display: flex;
+  align-items: center;
+}
+.footer-and-the{
+  margin-left: 10px;
+}
